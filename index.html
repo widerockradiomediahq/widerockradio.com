@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>HOMEPAGE</title>    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="img/logo2.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+               <li><a href="index.html">HOME</a></li>
+               <li><a href="index3.html">ABOUT</a></li>
+               <li><a href="index4.html">WIDE ROCK PROGRAMS</a></li>
+               <li><a href="index5.html">WIDE ROCK TOP 10</a></li>
+               <li><a href="index6.html">BLOGS</a></li>
+             </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+    <div class="text-box">
+        <h1>WELCOME TO WIDE ROCK RADIO</h1>
+        <p><b>YOUR MUSIC. YOUR CHOICE</b></p>
+        <a href="index1.html" class="image"><img src="img/WRWS.png" style="width:200px"></a>
+        <a href="https://widerockradioph.wixsite.com/home/podcast" class="image"><img src="img/WRLO.png" style="width: 200px"></a>
+        <a href="index2.html" class="image"><img src="img/WRCR.png" style="width: 200px"></a>
+        </div>    
+    </section>
+    
+<!----- Facilities ----->
+
+<section class="facilities">
+    <h1>WIDE ROCK PLATFORMS</h1>
+    <p>Wide Rock Radio has 3 different platforms, These are the following.</p>
+    
+    <div class="row">
+       <div class="facilities-col">
+          <img src="img/Wide(7).png">
+          <h3>Wide Rock Audio Live</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>   
+        </div>
+        <div class="facilities-col">
+          <img src="img/Wide(5).png">
+          <h3>Usapang Sakto. Klaro. Diretso.</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>   
+        </div>    
+        <div class="facilities-col">
+          <img src="img/Wide(6).png">
+          <h3>WIDE ROCK TV</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>   
+        </div>    
+    </div>
+    
+</section>
+    
+<!------ footer ----->
+<section class="footer">
+    <h4>About Us</h4>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit arcu nibh, nec ornare augue mattis quis.<br> Nulla congue lectus lectus, vel efficitur turpis pharetra quis. Maecenas sit amet metus vitae sem mollis tincidunt in sed orci.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-youtube"></i>    
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> By Carl Steven Apuya</p>
+</section>
+    
+    
+<!-----JavaScript for Toggle Menu----->
+<script>
+    
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+      navLinks.style.right ="0";
+  }
+    function hideMenu(){
+      navLinks.style.right ="-200px";
+  }
+    
+</script>
+    
+</body>
+</html>
